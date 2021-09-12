@@ -1,0 +1,25 @@
+OOPS concepts:
+------------------
+	OOP means Object Oriented Programming. There are four main concepts of OOPS. They are
+1. Encapsulation :
+	The data along with the methods that operate on the data are bundled together into a single unit called the class. This mechanism is called encapsulation.
+In Selenium, In Page Object Model design pattern, we bundle the webElements of the page and the page action methods in a single class.
+2. Abstraction :
+	The process of displaying only the essential information and hiding the background implementation is called Abstraction. 
+In Java, abstraction is achieved through abstract classes and Interfaces.
+Some interfaces used in Selenium are WebDriver, WebElement, JavascriptExecutor, Wait, Alert, TakeScreenshot.
+3. Inheritance :
+	It is the mechanism where one class derives the property of another class. With Inheritance, we could reuse the fields and methods of the already existing class.
+In java, inheritance is achieved through 'extends' keyword.
+In Selenium, every class extends the base class where the driver is instantiated.
+4. Polymorphism :
+	Poly - many; morph - forms ; Polymorphism means the ability of the data to be processed in many forms. We can have one interface and have multiple implementations.
+ There are two kinds of Polymorphism. They 
+(i) Method overloading :
+	It is called compile time polymorphism. The class has two or more methods with the same name but different parameters.
+In Selenium, the moveToTarget(WebElement target), moveToTarget(WebElement target, int x-offset, int y-offset) is an exmaple.
+(ii) Method overriding :
+	When the sub class has the same method name, same return type and same parameters as that of the parent class method, it is called method overriding. 
+It is also called as Run time polymorphism.
+In Selenium, WebDriver driver = new ChromeDriver();
+In the abive example, we have achieved run-time polymorphism by upcasting.
